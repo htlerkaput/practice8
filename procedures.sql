@@ -1,4 +1,3 @@
--- upsert (добавить или обновить)
 CREATE OR REPLACE PROCEDURE upsert_user(p_name VARCHAR, p_surname VARCHAR, p_phone VARCHAR)
 LANGUAGE plpgsql AS $$
 BEGIN
@@ -15,7 +14,6 @@ BEGIN
 END;
 $$;
 
--- удаление
 CREATE OR REPLACE PROCEDURE delete_contact(p_value TEXT)
 LANGUAGE plpgsql AS $$
 BEGIN

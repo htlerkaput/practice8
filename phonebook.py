@@ -23,6 +23,5 @@ def add_user(name, surname, phone):
     conn.close()
 
 
-# пример
 add_user("Ali", "Khan", "87771234567")
 search("Ali")
